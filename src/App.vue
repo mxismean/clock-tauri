@@ -34,7 +34,7 @@ const init = () => {
         radius: '100%',
         axisLine: {
           lineStyle: {
-            width: 15,
+            width: 14,
             color: [[1, 'rgba(0,0,0,0.7)']],
             shadowColor: 'rgba(0, 0, 0, 0.5)',
           },
@@ -60,7 +60,7 @@ const init = () => {
 
         pointer: {
           icon: 'path://M2.9,0.7L2.9,0.7c1.4,0,2.6,1.2,2.6,2.6v115c0,1.4-1.2,2.6-2.6,2.6l0,0c-1.4,0-2.6-1.2-2.6-2.6V3.3C0.3,1.9,1.4,0.7,2.9,0.7z',
-          width: 12,
+          width: 10,
           length: '55%',
           offsetCenter: [0, '8%'],
           itemStyle: {
@@ -105,7 +105,7 @@ const init = () => {
         },
         pointer: {
           icon: 'path://M2.9,0.7L2.9,0.7c1.4,0,2.6,1.2,2.6,2.6v115c0,1.4-1.2,2.6-2.6,2.6l0,0c-1.4,0-2.6-1.2-2.6-2.6V3.3C0.3,1.9,1.4,0.7,2.9,0.7z',
-          width: 8,
+          width: 6,
           length: '90%',
           offsetCenter: [0, '8%'],
           itemStyle: {

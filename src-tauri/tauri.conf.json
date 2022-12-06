@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "tauri-app",
+    "productName": "clock",
     "version": "0.1.0"
   },
   "tauri": {
@@ -59,11 +59,12 @@
         "fullscreen": false,
         "height": 200,
         "resizable": false,
-        "title": "tauri-app",
+        "title": "clock",
         "width": 200,
         "hiddenTitle": true,
         "transparent": true,
-        "decorations": false
+        "decorations": false,
+        "alwaysOnTop": true
       }
     ]
   }

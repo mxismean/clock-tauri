@@ -14,3 +14,4 @@
 ### Added
 
 - 项目初始化 @mxismean
+- 添加 workflow，tag提交事件会自动触发工作流的自行，进行多平台编译打包 @mxismean

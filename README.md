@@ -4,7 +4,7 @@
 
 # 安装包📦
 
-暂无
+[Releases](https://github.com/mxismean/clock-tauri/releases)
 
 # 安装依赖🔨
 

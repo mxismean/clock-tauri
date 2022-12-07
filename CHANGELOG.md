@@ -9,6 +9,12 @@
 
 ## Released
 
+## [0.1.1] - 2022-12-07
+
+### Changed
+
+- 更改 workflows 使用 pnpm 进行依赖安装 @mxismean
+
 ## [0.1.0] - 2022-12-07
 
 ### Added

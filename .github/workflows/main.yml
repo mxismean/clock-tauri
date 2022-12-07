@@ -15,10 +15,14 @@ jobs:
     runs-on: ${{ matrix.platform }}
     steps:
     - uses: actions/checkout@v2
+    - uses: pnpm/action-setup@v2.0.1
+      with:
+        version: 7.17.1
     - name: setup node
       uses: actions/setup-node@v1
       with:
         node-version: 16
+        cache: 'pnpm'
     - name: install Rust stable
       uses: actions-rs/toolchain@v1
       with:
